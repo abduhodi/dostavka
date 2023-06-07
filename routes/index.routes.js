@@ -12,4 +12,8 @@ router.use("/shipper", require("./shipping.routes"));
 
 router.use("/customer", require("./customer.routes"));
 
+router.use("/order", require("./orders.routes"));
+
+router.use("/search", require("./search.routes"));
+
 module.exports = router;
