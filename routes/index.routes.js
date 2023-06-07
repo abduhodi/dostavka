@@ -8,4 +8,8 @@ router.use("/food", require("./food.routes"));
 
 router.use("/menu", require("./menu.routes"));
 
+router.use("/shipper", require("./shipping.routes"));
+
+router.use("/customer", require("./customer.routes"));
+
 module.exports = router;
