@@ -5,4 +5,4 @@ create table if not exists orders(
   shipping_id int not null,
   quantity int not null,
   order_time timestamp default current_timestamp
-)
+);

@@ -3,4 +3,4 @@ create table if not exists menu (
   restoran_id int,
   food_id int,
   price int
-)
+);
